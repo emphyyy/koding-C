@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+    double a [3] [3];
+    
+    for(int i = 0; i < 3; i++){
+        for( int j = 0; j < 3; j++){
+        scanf("%lf", &a[i][j]);
+        
+        
+    }
+    }
+    double glav = a[0][0] + a[1][1] + a[2][2];
+    double poboch = a[0][2] + a[1][1] + a[2][0];
+    printf("Glavnaya = %lf\nPobochnaya = %lf", glav, poboch);
+    return 0;
+    
+}
